@@ -1,6 +1,6 @@
 # AI LIP READER
 
-This project is an AI that can read a persons lip and figure out what they were saying. It uses Mediapipe to get the keypoints of a persons mouth and crops a suitable section where the movement of the lips can be seen.
+This project is an AI that can read a persons lip and figure out what the person was saying. It uses Mediapipe to get the keypoints of a persons mouth and crops a suitable section where the movement of the lips can be seen.
 
 It is trained on a neural network that consists of timedistribution and bidirectional lstm layers. The network uses a CTC (Connectionist Temporal Classification) loss function which is a commonly used in neural network models used for sequence to sequence tasks such as speech recognition, handwriting recognition, and machine translation.
 
